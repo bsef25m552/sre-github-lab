@@ -49,12 +49,12 @@ The Food Delivery System is developed to simplify food ordering within hostel pr
 - FR-01: When a student enters valid registration information, the system creates an account and allows subsequent login.
 - FR-02: When the manager modifies a food item's price or availability, the updated information is reflected in the menu.
 - FR-03: When a student opens the menu, all currently available food items and their prices are displayed.
-- FR-04: When a student selects food items and quantities and submits the order, the system creates an order successfully.
+- FR-04: When a student selects food items and quantities, the system displays the calculated total price before allowing the student to confirm the order.
 - FR-05: After an order is submitted, its customer information, selected items, quantities, total price, delivery address, and payment method are saved.
 - FR-06: When a new order is received, the manager can access its details and change its status to confirmed.
 - FR-07: When the manager assigns an order to an available server, the assignment appears in that server's account within 5 seconds.
 - FR-08: When a server opens their assigned orders, the system displays the relevant customer, room, food, and payment details.
-- FR-09: When a server updates an order's delivery progress, the system saves the new status.
+- FR-09: When a server marks an order as Delivered, the system saves the updated status and displays it in the student's order history.
 - FR-10: When an order status changes, the student can see the latest status within 5 seconds.
 - FR-11: When submitting an order, the student can choose either cash or online banking.
 - FR-12: When an order is marked as delivered, its customer, order, delivery, and payment information remains stored in the system.
